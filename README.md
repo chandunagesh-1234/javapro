@@ -2,7 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -37,7 +36,6 @@
             background-color: #333;
             color: white;
         }
-    </style>
 </head>
 <body>
     <div class="container">
