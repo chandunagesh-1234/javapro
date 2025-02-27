@@ -2,26 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            max-width: 500px;
-            margin: auto;
-        }
-        input, button {
-            margin: 10px;
-            padding: 10px
-            font-size: 16px
-            width: 90%;
-        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -37,7 +17,6 @@
             color: white;
         }
 </head>
-<body>
     <div class="container">
         <h2>Student Grading System</h2>
         <input type="text" id="studentName" placeholder="Enter Student Name">
@@ -52,7 +31,6 @@
                     <th>Grade</th>
                 </tr>
             </thead>
-            <tbody id="studentTable"></tbody>
         </table>
     </div>
 
